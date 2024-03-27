@@ -6,7 +6,7 @@ import google.generativeai as genai
 
 BUNDLE_DIRECTORY = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
 
-# GOOGLE_API_KEY = "AIzaSyAcGTNUWwMG3hPz2LrBtOAJ8xNLLz3M8MQ"
+GOOGLE_API_KEY = YOUR_API_KEY
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
